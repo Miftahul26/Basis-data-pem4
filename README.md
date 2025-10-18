@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Miftahulnurulaini</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(135deg, #f9e6f0, #e8f0fe);
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px 30px 20px;
+      background: #fff;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      border-radius: 0 0 40px 40px;
+      transition: background 0.3s ease;
+    }
+
+    header:hover {
+      background: #fff8fb;
+    }
+
+    header img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #f5c6ec;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    header img:hover {
+      transform: scale(1.05);
+    }
+
+    header h1 {
+      margin: 18px 0 5px 0;
+      font-size: 26px;
+      color: #704264;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      margin: 4px;
+      color: #7b5971;
+      font-size: 16px;
+    }
+
+    main {
+      max-width: 850px;
+      margin: 40px auto;
+      background: #ffffff;
+      border-radius: 25px;
+      padding: 40px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    main:hover {
+      transform: translateY(-5px);
+    }
+
+    main h2 {
+      text-align: center;
+      color: #704264;
+      margin-bottom: 25px;
+      font-size: 22px;
+      border-bottom: 2px solid #f5c6ec;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    main p {
+      text-align: justify;
+      color: #4a4a4a;
+      line-height: 1.8;
+      font-size: 16px;
+    }
+
+    ul {
+      color: #4a4a4a;
+      margin-left: 20px;
+      line-height: 1.8;
+    }
+
+    ul li strong {
+      color: #704264;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #704264;
+      font-size: 14px;
+      background: #fdf5f9;
+      border-top: 2px solid #f5c6ec;
+      margin-top: 40px;
+    }
+
+    footer span {
+      color: #b56576;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="gunung.jpg" alt="Foto Profil Miftahulnurulaini">
+    <h1>Miftahulnurulaini</h1>
+    <p><strong>NIM:</strong> 24416255201025</p>
+    <p><strong>Kelas:</strong> IF24B</p>
+  </header>
+
+  <main>
+    <h2>Apa itu Normalisasi pada ERD</h2>
+    <p>
+      Normalisasi pada ERD (Entity Relationship Diagram) adalah proses untuk mengorganisasi data dalam basis data agar tidak terjadi redundansi (pengulangan data) dan memastikan integritas data tetap terjaga.
+      Tujuannya adalah untuk memecah tabel besar menjadi beberapa tabel yang lebih kecil dan saling terhubung dengan relasi yang logis.
+    </p>
+    <p>
+      Proses normalisasi dilakukan melalui beberapa tahap yang disebut bentuk normal (Normal Form), yaitu:
+    </p>
+    <ul>
+      <li><strong>1. Bentuk Normal Pertama (1NF):</strong> Setiap atribut hanya memiliki satu nilai (tidak ada data ganda dalam satu kolom).</li>
+      <li><strong>2. Bentuk Normal Kedua (2NF):</strong> Setiap atribut non-kunci harus bergantung sepenuhnya pada kunci utama (primary key).</li>
+      <li><strong>3. Bentuk Normal Ketiga (3NF):</strong> Tidak ada atribut non-kunci yang bergantung pada atribut non-kunci lainnya.</li>
+    </ul>
+    <p>
+      Dengan menerapkan normalisasi, struktur data menjadi lebih efisien, mudah diperbarui, dan mengurangi potensi anomali data dalam sistem basis data.
+    </p>
+  </main>
+
+  <footer>
+    &copy; 2025 <span>Blog Miftahulnurulaini</span> | IF24B
+  </footer>
+
+</body>
+</html>
